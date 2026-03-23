@@ -1,0 +1,20 @@
+# Telegram bot
+aiogram==3.13.1
+
+# Database (async)
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+
+# Database (sync — for Alembic migrations)
+psycopg2-binary==2.9.10
+
+# Migrations
+alembic==1.14.0
+
+# Cache / FSM storage
+redis==5.2.1
+
+# Config
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
